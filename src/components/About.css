@@ -1,0 +1,35 @@
+
+
+.about-page {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #131212;
+    color: #fff;
+    padding: 40px 0;
+  }
+  
+  .about-content {
+    padding: 20px;
+  }
+  
+  .about-content h2 {
+    margin-bottom: 20px;
+    color: #e3d002;
+  }
+ 
+  @media (max-width: 768px) {
+    .about-page {
+      padding-top: 80px; 
+    }
+    
+    .about-content {
+      padding: 20px;
+    }
+    .about-image img {
+        max-height: 200px; 
+      }
+  }
+ 
